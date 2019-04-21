@@ -31,7 +31,7 @@
     <div class="col-md-3 col-12">
       <h3>Categorias</h3>
       <ul class="list-categories">
-         <a class="categories-items" href="<?php echo BASE_URL; ?>search?c=<?php echo ''.$url ?>">Todas cadecorias</a>
+         <a class="categories-items" href="<?php echo BASE_URL; ?>search?c=<?php echo ''.$url ?>">Todas categorias</a>
         <?php foreach($categories as $category): ?>
           <a class="categories-items" href="<?php echo BASE_URL; ?>search?c=<?php echo $category['id'].$url ?>"><li><?php echo $category['category_name']; ?></li></a>
         <?php endforeach; ?>
