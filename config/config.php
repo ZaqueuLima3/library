@@ -4,14 +4,14 @@ require_once "environment.php";
 $config = array();
 
 if (ENVIRONMENT == 'development') {
-    define("BASE_URL", "http://localhost/panel/");
-    $confg['dbname'] = 'panel';
+    define("BASE_URL", "http://localhost/library/");
+    $confg['dbname'] = 'library';
     $confg['host'] = 'localhost';
     $confg['dbuser'] = 'root';
-    $confg['dbpass'] = 'root';
+    $confg['dbpass'] = '123456';
 } else {
     define("BASE_URL", "http://meusite.com.br/");
-    $confg['dbname'] = 'panel';
+    $confg['dbname'] = 'library';
     $confg['host'] = 'localhost';
     $confg['dbuser'] = 'root';
     $confg['dbpass'] = 'root';
