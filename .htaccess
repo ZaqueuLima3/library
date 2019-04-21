@@ -1,0 +1,17 @@
+RewriteEngine on
+RewriteBase /
+
+# Se for raiz, direcionar para o controller correto
+RewriteCond %{ENV:REDIRECT_VAR} !^$
+RewriteRule .* - [E=VAR:%{ENV:REDIRECT_VAR}]
+
+RewriteRule ^/?$ home/index
+
+# Se não for uma pasta ou arquivo existente, e já não estiver direcionando para a pasta public, fazer isso
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_URI} !^/public
+RewriteRule ^(.*)$ /panel/public/index.php?url=$1 [QSA,L]
+
+ExpiresActive On
+ExpiresDefault A0

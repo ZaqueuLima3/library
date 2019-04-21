@@ -1,0 +1,12 @@
+{
+  "name": "zaqueu/panel",
+  "authors": [
+    {
+      "name": "ZAQUEU LIMA DOS SANTOS",
+      "email": "zaqueulima1@gmail.com"
+    }
+  ],
+  "require": {
+    "robmorgan/phinx": "0.10.0"
+  }
+}
