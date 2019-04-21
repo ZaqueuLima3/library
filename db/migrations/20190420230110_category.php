@@ -12,8 +12,8 @@ class Category extends AbstractMigration
         $table = $this->table('category');
         $table->addColumn('category_name', 'string', ['limit' => 100, 'null' => false])
             ->addColumn('deleted', 'enum', ['values' => ['yes', 'no'], 'default' => 'no'])
-            ->addColumn('created_at', 'datetime', ['default' => 'CURRENT_TIMESTAMP'])
-            ->addColumn('updated_at', 'datetime', ['default' => 'CURRENT_TIMESTAMP'])
+            ->addColumn('created_at', 'timestamp', ['default' => 'CURRENT_TIMESTAMP'])
+            ->addColumn('updated_at', 'timestamp', ['default' => 'CURRENT_TIMESTAMP'])
             ->create();
     }
 
