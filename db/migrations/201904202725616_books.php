@@ -16,8 +16,8 @@ class Books extends AbstractMigration
             ->addColumn('author', 'string', ['limit' => 50, 'null' => false])
             ->addColumn('description', 'text', ['null' => true])
             ->addColumn('deleted', 'enum', ['values' => ['yes', 'no'], 'default' => 'no'])
-            ->addColumn('created_at', 'timestamp', ['default' => 'CURRENT_TIMESTAMP'])
-            ->addColumn('updated_at', 'timestamp', ['default' => 'CURRENT_TIMESTAMP'])
+            ->addColumn('created_at', 'datetime', ['default' => 'CURRENT_TIMESTAMP'])
+            ->addColumn('updated_at', 'datetime', ['default' => 'CURRENT_TIMESTAMP'])
             ->addForeignKey('user_id', 'users', 'id', array('delete'=> 'NO_ACTION', 'update'=> 'CASCADE'))
             ->addForeignKey('category_id', 'category', 'id', array('delete'=> 'NO_ACTION', 'update'=> 'CASCADE'))
             ->create();
