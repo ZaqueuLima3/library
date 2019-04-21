@@ -10,11 +10,11 @@ if (ENVIRONMENT == 'development') {
     $confg['dbuser'] = 'root';
     $confg['dbpass'] = '123456';
 } else {
-    define("BASE_URL", "http://meusite.com.br/");
-    $confg['dbname'] = 'library';
-    $confg['host'] = 'localhost';
-    $confg['dbuser'] = 'root';
-    $confg['dbpass'] = 'root';
+    define("BASE_URL", "https://applibrary-test.herokuapp.com/");
+    $confg['dbname'] = 'remotemysql.com';
+    $confg['host'] = 'EhtOxG1jbI';
+    $confg['dbuser'] = 'EhtOxG1jbI';
+    $confg['dbpass'] = 'yym7x4XfT6';
 }
 
 global $db;
