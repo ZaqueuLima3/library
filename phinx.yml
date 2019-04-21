@@ -7,10 +7,10 @@ environments:
   default_database: development
   production:
     adapter: mysql
-    host: remotemysql.com
-    name: EhtOxG1jbI
-    user: EhtOxG1jbI
-    pass: yym7x4XfT6
+    host: sql10.freesqldatabase.com
+    name: sql10288962
+    user: sql10288962
+    pass: JiX8JQTLxV
     port: 3306
     charset: utf8
 

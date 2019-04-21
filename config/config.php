@@ -5,10 +5,10 @@ $config = array();
 
 if (ENVIRONMENT == 'development') {
     define("BASE_URL", "http://localhost/library/");
-    $confg['host'] = 'localhost';
-    $confg['dbname'] = 'library';
-    $confg['dbuser'] = 'root';
-    $confg['dbpass'] = '123456';
+    $confg['host'] = 'sql10.freesqldatabase.com';
+    $confg['dbname'] = 'sql10288962';
+    $confg['dbuser'] = 'sql10288962';
+    $confg['dbpass'] = 'JiX8JQTLxV';
 } else {
     define("BASE_URL", "https://applibrary-test.herokuapp.com/");
     $confg['host'] = 'remotemysql.com';
