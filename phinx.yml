@@ -7,17 +7,17 @@ environments:
   default_database: development
   production:
     adapter: mysql
-    host: localhost
-    name: production_db
-    user: root
-    pass: ""
+    host: remotemysql.com
+    name: EhtOxG1jbI
+    user: EhtOxG1jbI
+    pass: yym7x4XfT6
     port: 3306
     charset: utf8
 
   development:
     adapter: mysql
     host: localhost
-    name: panel
+    name: library
     user: root
     pass: root
     port: 3306
