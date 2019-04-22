@@ -1,5 +1,8 @@
 <?php
 session_start();
+error_reporting(E_ALL);
+ini_set("display_errors", "On");
+
 require '../config/config.php';
 
 spl_autoload_register( function($class) {
