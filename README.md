@@ -11,4 +11,4 @@ Ao cadastrar um livro o mesmo sera listado na area `meus cadastros` onde sera po
 
 Na pagina inicial você pode listar todos os livros e filtrar de acordo com o que desejar. Ao clicar no botão `+ Biblioteca` você adiciona o livro na biblioteca pessoal, e sera listado na aba `Todos livros`
 
-<a href="https://applibrary-test.herokuapp.com/">Ver o projeto</a>
+<a href="https://applibrary-test.herokuapp.com/" target="_blank">Ver o projeto</a>
