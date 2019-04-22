@@ -1,5 +1,5 @@
 <?php
-ini_set("display_errors", "On");
+session_start();
 
 require '../config/config.php';
 
