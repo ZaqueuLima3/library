@@ -16,7 +16,7 @@ class booksController extends BaseController {
 
   public function update ($id) {
 
-    $book = new books();
+    $book = new Books();
     $categories = new Category();
 
     if ($_SERVER['REQUEST_METHOD'] === 'POST') {
