@@ -36,12 +36,6 @@ class CategorySeeder extends AbstractSeed
                 'updated_at'    => date('Y-m-d H:i:s'),
             ],
             [
-                'category_name' => 'Literatura Estrangeira',
-                'deleted'       => 'no',
-                'created_at'    => date('Y-m-d H:i:s'),
-                'updated_at'    => date('Y-m-d H:i:s'),
-            ],
-            [
                 'category_name' => 'Humor',
                 'deleted'       => 'no',
                 'created_at'    => date('Y-m-d H:i:s'),
