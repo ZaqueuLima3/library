@@ -43,7 +43,7 @@ class booksController extends BaseController {
 
   public function delete ($id) {
 
-    $book = new books();
+    $book = new Books();
     
     $book->delete($id);
     
